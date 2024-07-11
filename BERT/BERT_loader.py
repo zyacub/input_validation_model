@@ -2,7 +2,7 @@ import torch
 from transformers import BertTokenizer, BertForSequenceClassification
 
 # Setting Path
-path = "C:\\Users\\zubai\\Illinois\\Kaisura\\input_validation_models\\trained_models\\BERT_classifier.pth"
+path = "SET PATH HERE"
 
 #Defining device (cuda or cpu)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
